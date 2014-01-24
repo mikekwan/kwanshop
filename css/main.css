@@ -46,12 +46,20 @@ img {
 	color: gray;
 }
 
+.module:last-child {
+	border-bottom: none;
+}
+
 footer {
 	clear: both;
 }
 
 footer a {
 	padding: 0px 15px 0px 15px;
+}
+
+footer a:first-child {
+	padding-left: 0px;
 }
 
 a {
