@@ -18,13 +18,18 @@ img {
 #main {
 	float: left;
 	width: 66.7%;
-
 }
 
 .content {
 	border-bottom: 1px solid #DDD;
 	margin-bottom: 30px;
+}
 
+.content p:first-letter {
+	font-size: 5em;
+	padding: 20px 10px 20px 0px;
+	float: left;
+	font-weight: 100;
 }
 
 #sidebar {
@@ -44,6 +49,7 @@ img {
 
 .module p {
 	color: gray;
+	font-weight: 100;
 }
 
 .module:last-child {
@@ -110,7 +116,7 @@ h1 h2 h3 h4 h5 {
 	font-weight: 100px
 }
 
-h2 a{
+h2 a {
 	color: inherit;
 }
 
@@ -123,9 +129,8 @@ header h1 {
 
 header h2 {
 	font-size: 2em;
-	font-style: italic;
 	display: inline;
-	font-weight: 200;
+	font-weight: 100;
 }
 
 header nav ul {
